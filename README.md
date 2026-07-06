@@ -1,6 +1,6 @@
 # EURUSD 2h OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_348_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-76_948_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full EURUSD dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 2h OHLCV** for **Euro / US Dollar** (Forex)
 - **24/5 FX liquidity with Asian, European and US sessions — not limited to US market hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`2h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **2,348** `2h` rows in the full archive
+- **Free evaluation sample** on GitHub (`2h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **76,948** `2h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `2h` sample updated in sync
 
-> **Sample on GitHub** · `EURUSD_2h.csv` (2,328 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **2,348** `2h` rows (~0.14 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-10-01` → `2026-07-02`.
+> **Sample on GitHub** · `EURUSD_2h.csv` (2,328 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **76,948** `2h` rows (~4.33 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2001-11-28` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/eurusd-2h-ohlcv-forex-his
 |---|--:|---|
 | Instrument | Euro / US Dollar · Forex | Euro / US Dollar · Forex |
 | Timeframes | `2h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 2h rows | 2,328 | **2,348** |
-| Size | 0.14 MB | ~0.14 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-10-01` → `2026-07-02` |
+| 2h rows | 2,328 | **76,948** |
+| Size | 0.13 MB | ~4.33 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2001-11-28` → `2026-07-03` |
 | File | `EURUSD_2h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`EURUSD_2h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T22:00:00Z | 1.17171 | 1.172602 | 1.171612 | 1.172492 | 3215.0 |
-| 2025-10-03T00:00:00Z | 1.172492 | 1.172942 | 1.171642 | 1.172702 | 12926.0 |
-| 2025-10-03T02:00:00Z | 1.172702 | 1.172782 | 1.171982 | 1.172632 | 8537.0 |
-| 2025-10-03T04:00:00Z | 1.172632 | 1.172812 | 1.171512 | 1.171712 | 9709.0 |
-| 2025-10-03T06:00:00Z | 1.171712 | 1.173442 | 1.17161 | 1.173252 | 18123.0 |
+| 2025-10-03T20:00:00Z | 1.1742 | 1.17456 | 1.17385 | 1.17425 | 3022.0 |
+| 2025-10-05T20:00:00Z | 1.17219 | 1.17254 | 1.17193 | 1.1724 | 604.0 |
+| 2025-10-05T22:00:00Z | 1.1724 | 1.17268 | 1.17075 | 1.17131 | 18232.0 |
+| 2025-10-06T00:00:00Z | 1.17131 | 1.17261 | 1.171 | 1.17253 | 17870.0 |
+| 2025-10-06T02:00:00Z | 1.17253 | 1.1732 | 1.17245 | 1.17258 | 9754.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T14:00:00Z | 1.14499 | 1.14577 | 1.14329 | 1.14468 | 35406.0 |
-| 2026-07-02T16:00:00Z | 1.14468 | 1.14475 | 1.14282 | 1.14299 | 17821.0 |
-| 2026-07-02T18:00:00Z | 1.14299 | 1.14363 | 1.14255 | 1.14302 | 11123.0 |
-| 2026-07-02T20:00:00Z | 1.14302 | 1.14349 | 1.14275 | 1.14327 | 3427.0 |
+| 2026-07-03T12:00:00Z | 1.14514 | 1.14538 | 1.1439 | 1.14414 | 11979.0 |
+| 2026-07-03T14:00:00Z | 1.14414 | 1.14489 | 1.1436 | 1.1438 | 10104.0 |
+| 2026-07-03T16:00:00Z | 1.1438 | 1.1443 | 1.14364 | 1.14414 | 8879.0 |
+| 2026-07-03T18:00:00Z | 1.14414 | 1.14424 | 1.14364 | 1.14374 | 5354.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **EURUSD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **2,348** rows at `2h`, plus all other timeframes in the same ZIP.
+The complete **EURUSD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **76,948** rows at `2h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full EURUSD dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · EURUSD 2h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · EURUSD 2h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
